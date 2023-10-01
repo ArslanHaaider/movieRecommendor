@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMDB</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="search">
@@ -13,14 +14,14 @@
         </div>
         <form action="" method="post" id="result">
             <label for="movieName"></label>
-            <input type="search" name="movieName" id="movieName">
+            <input type="search" name="movieName" id="movieName" placeholder="Movie Name">
             <label for="launchYear"></label>
-            <input type="search" name="launchYear" id="launchYear">
+            <input type="text" name="launchYear" id="launchYear" placeholder="Year" min="2000" max="2030">            
             <label for="search"></label>
             <button type="submit">search</button>
         </form>
     </div>
-    <div class="result">
+    <div class=movie-results>
         
     </div>
 </body>

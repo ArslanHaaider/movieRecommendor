@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.search{
+    width: 100vw;
+    height: 45vh;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+.logo>img{
+    width:  40vw;
+    height: 40vh;
+}
