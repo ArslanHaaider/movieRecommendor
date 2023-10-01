@@ -11,13 +11,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FCF2F7;
 }
 .logo{
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .logo>img{
     width:  40vw;
     height: 40vh;
+}
+#movieImg{
+    width: 100px;
+    height: 100px;
+}
+#movie-result{
+    display: grid;
+}
+.movie{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px ;
+    border: 1px solid orange;
+    align-items: center;
 }

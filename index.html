@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMDB</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./scipt.js"></script>
 </head>
+
 <body>
     <div class="search">
         <div class="logo">
             <img src="./images/default.png" alt="">
         </div>
-        <form action="" method="post" id="result">
+        <form action="" method="post" id="resultForm">
             <label for="movieName"></label>
             <input type="search" name="movieName" id="movieName" placeholder="Movie Name">
             <label for="launchYear"></label>
             <input type="text" name="launchYear" id="launchYear" placeholder="Year" min="2000" max="2030">            
             <label for="search"></label>
-            <button type="submit">search</button>
+            <button type="submit" id="resultSubmition">search</button>
         </form>
     </div>
-    <div class=movie-results>
+    <div id="movie-result">
         
     </div>
 </body>
